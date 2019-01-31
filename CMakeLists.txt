@@ -23,4 +23,9 @@ add_executable(btgatt-server
 target_link_libraries(btgatt-server bluetooth shared)
 
 
+# thingy.c
+add_executable(thingy
+    thingy.c)
+
+target_link_libraries(thingy bluetooth shared)
 
